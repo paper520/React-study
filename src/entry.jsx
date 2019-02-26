@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import '../node_modules/easycss-core/build/easycss.min.css';
+import Router from './router.jsx';
 
-const div = (
-  <div>Hello JSX!</div>
-)
+const root = (
+  <Router></Router>
+);
 
-/* 4 渲染 JSX 到页面中 */
-ReactDOM.render(div, document.getElementById('root'))
+ReactDOM.render(root, document.getElementById('root'));
