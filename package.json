@@ -21,12 +21,15 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.0.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "easycss-core": "^2.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   }
