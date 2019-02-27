@@ -16,7 +16,8 @@ export default class menu extends React.Component {
   render() {
 
     const menulist = [
-      ["jsx", "JSX基本写法"]
+      ["jsx", "JSX基本写法"],
+      ["Component", "创建组件的二种方式和相关测试"]
     ];
 
     return (
